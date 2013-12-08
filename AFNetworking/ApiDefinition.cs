@@ -270,6 +270,9 @@ namespace AFNetworking
 		
 		[Export ("setDownloadProgressBlock:")]
 		void SetDownloadProgressBlock (AFURLConnectionOperationProgressCallback block);
+
+		[Export ("allowsInvalidSSLCertificate")]
+		bool AllowsInvalidSSLCertificate { get; set;}
 		
 		/*[Export ("setAuthenticationAgainstProtectionSpaceBlock:")]
 		void SetAuthenticationAgainstProtectionSpaceBlock ([unmapped: blockpointer: BlockPointer] block);

@@ -2,3 +2,5 @@
 AFNetworking.userprefs
 bin/
 obj/
+AFNetworking/libAFNetworking.a
+libAFNetworking.a
